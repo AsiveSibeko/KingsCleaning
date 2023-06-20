@@ -1,0 +1,33 @@
+<!-- wp:group {"align":"full","style":{"color":{"background":"#e6e6e6","text":"#222222"},"spacing":{"padding":{"top":"7vw","bottom":"7vw"},"margin":{"top":"0px","bottom":"0px"}},"elements":{"link":{"color":{"text":"#222222"}}}},"layout":{"inherit":true,"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-text-color has-background has-link-color" style="color:#222222;background-color:#e6e6e6;margin-top:0px;margin-bottom:0px;padding-top:7vw;padding-bottom:7vw"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"60px","left":"60px"}}}} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"width":"60%"} -->
+<div class="wp-block-column" style="flex-basis:60%"><!-- wp:paragraph {"style":{"typography":{"fontSize":20}}} -->
+<p style="font-size:20px">Fill out the form below and we will contact you as soon as possible!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:jetpack/contact-form {"subject":"","to":""} -->
+<div class="wp-block-jetpack-contact-form"><!-- wp:jetpack/field-name {"required":true,"requiredText":"(required)","width":50} /-->
+
+<!-- wp:jetpack/field-email {"required":true,"requiredText":"(required)","width":50} /-->
+
+<!-- wp:jetpack/field-textarea {"label":"Message","required":true,"requiredText":"(required)"} /-->
+
+<!-- wp:jetpack/button {"element":"button","text":"Submit","customTextColor":"#e6e6e6","customBackgroundColor":"#222222","lock":{"move":false,"remove":true}} /--></div>
+<!-- /wp:jetpack/contact-form --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"40%"} -->
+<div class="wp-block-column" style="flex-basis:40%"><!-- wp:heading -->
+<h2 class="wp-block-heading"><strong>Get in Touch</strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":20}}} -->
+<p style="font-size:20px">Hanover St, District Six, Cape Town, 7925</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="mailto:kingscleaning@gmail.com">kingscleaning@gmail.com</a><br>(021) 460 3911</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
