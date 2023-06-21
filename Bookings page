@@ -1,0 +1,25 @@
+<!-- wp:cover {"overlayColor":"background","minHeight":100,"minHeightUnit":"vh","isDark":false,"align":"full"} -->
+<div class="wp-block-cover alignfull is-light" style="min-height:100vh"><span aria-hidden="true" class="wp-block-cover__background has-background-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"large"} -->
+<p class="has-text-align-center has-large-font-size">Please select a day for which you require our services on the calendar below</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:jetpack/contact-form {"subject":"A new appointment booked from your website","to":"220006695@mycput.ac.za","style":{"spacing":{"padding":{"top":"16px","right":"16px","bottom":"16px","left":"16px"}}}} -->
+<div class="wp-block-jetpack-contact-form" style="padding-top:16px;padding-right:16px;padding-bottom:16px;padding-left:16px"><!-- wp:jetpack/field-name {"required":true,"requiredText":"(required)"} /-->
+
+<!-- wp:jetpack/field-email {"required":true,"requiredText":"(required)"} /-->
+
+<!-- wp:jetpack/field-telephone {"required":true,"requiredText":"(required)"} /-->
+
+<!-- wp:jetpack/field-date {"required":true,"requiredText":"(required)"} /-->
+
+<!-- wp:jetpack/field-radio {"label":"Time","required":true,"requiredText":"(required)","options":[]} -->
+<!-- wp:jetpack/field-option-radio {"label":"Morning"} /-->
+
+<!-- wp:jetpack/field-option-radio {"label":"Afternoon"} /-->
+<!-- /wp:jetpack/field-radio -->
+
+<!-- wp:jetpack/field-textarea {"label":"Notes","requiredText":"(required)"} /-->
+
+<!-- wp:jetpack/button {"element":"button","text":"Book Appointment","lock":{"remove":true}} /--></div>
+<!-- /wp:jetpack/contact-form --></div></div>
+<!-- /wp:cover -->
